@@ -313,6 +313,10 @@
       grid-template-columns: repeat(3, 1fr);
     }
 
+    .learn p {
+      margin-bottom: 0;
+    }
+
     .learn3 {
       left: 0%;
     }
