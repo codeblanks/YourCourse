@@ -29,7 +29,7 @@ h1, h2, h3, p, p1 {
   }
   
 h1 {
-  font-size: 1.875rem;
+  font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 1em;
 }
@@ -43,18 +43,6 @@ h2 {
   font-size: 1.875rem;
   font-weight: 700;
   margin-bottom: 0.5em;
-}
-
-.main_h2 {
-  font-size: 1.875rem;
-  font-weight: 700;
-  margin-left: 1em;
-}
-
-.sub_h2 {
-  font-size: 1.875rem;
-  font-weight: 400;
-  margin-left: 3em;
 }
 
 h3 {

@@ -103,6 +103,10 @@ nav {
   margin-bottom: 1em;
 }
 
+figure {
+  margin-bottom: 0;
+}
+
 /**************************/
 /* TEACHER */
 /**************************/
