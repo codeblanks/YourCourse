@@ -43,11 +43,7 @@
       font-weight: 700;
       margin-bottom: 1rem;
     }
-
-    p {
-      font-size: 1.25rem;
-    }
-
+    
     .row {
       display: flex;
       justify-content: space-between;
@@ -289,7 +285,7 @@
     /* NAVIGATION */
     /**************************/
     .new {
-      padding: 2em 5em 0em 5em;
+      padding: 2em 5em 0 5em;
     }
 
     /**************************/
@@ -315,10 +311,6 @@
     /**************************/
     .learn-grid {
       grid-template-columns: repeat(3, 1fr);
-    }
-
-    .learn p {
-      margin-bottom: 0;
     }
 
     .learn3 {
