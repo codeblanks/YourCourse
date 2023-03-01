@@ -38,6 +38,10 @@
   /**************************/
   /* GENERAL */
   /**************************/
+  .section_button {
+    width: auto;
+  }
+
     section {
       padding: 7.5em 1.875em;
     }
