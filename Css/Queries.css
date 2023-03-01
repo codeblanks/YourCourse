@@ -13,6 +13,10 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .learn1, .learn2 {
+    margin-bottom: 0;
+  }
+
   .learn3 {
     position: relative;
     left: 50%;
