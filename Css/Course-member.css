@@ -35,9 +35,7 @@
 
 .dropdown-col {
     background-color: #323232;
-    padding: 1.5em 0em;
-    border: 1px solid #000;
-    margin-bottom: 0em;
+    border: 1px solid #0E0E0E;
 }
 
 .lesson-link {
@@ -47,3 +45,14 @@
 .dropdown-col:hover {
     background-color: #797979;
 }
+
+.sign {
+    padding: 1.2em;
+    background-color: #037039;
+}
+
+.values {
+    display: flex;
+    align-items: center;
+}
+

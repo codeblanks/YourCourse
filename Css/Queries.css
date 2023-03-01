@@ -35,7 +35,7 @@
   /* GENERAL */
   /**************************/
     section {
-      padding: 6.25em 1.875em;
+      padding: 7.5em 1.875em;
     }
 
     h1 {
@@ -52,16 +52,24 @@
     
     .left-heading1,
     .left-paragraph {
-        text-align: left;
+      text-align: left;
     }
 
     .section_button {
-        display: inline-block;
-        margin-right: 1em;
+      display: inline-block;
+      margin-right: 1em;
     }
 
     .col + .col {
       margin-left: 3em;
+   }
+
+   .indicator {
+      margin-left: 0;
+   }
+
+   .learn-indicator {
+      margin-left: auto;
    }
 
   /**************************/
@@ -144,19 +152,20 @@
   /* HOME */
   /**************************/
   .home {
-    padding: 6.25em 0em 6.25em 1.875em;
+    padding-top: 7.25em;
+    padding-right: 0;
   }
 
   .section_button {
-      margin-bottom: 0;
+    margin-bottom: 0;
   }
 
   .home-text-button {
-      width: 50%;
+    width: 50%;
   }
 
   .home-image {
-      width: 50%;
+    width: 50%;
   }
 
   /**************************/
@@ -167,7 +176,7 @@
   }
 
   .goal {
-    padding: 6.25em 1.875em 6.25em 0em;
+    padding-left: 0;
   }
 
   .goal-text {
@@ -175,7 +184,7 @@
   }
 
   .goal-image {
-      width: 50%;
+    width: 50%;
   }
 
   .goal-text p {
@@ -185,6 +194,11 @@
   /**************************/
   /* TEACHER */
   /**************************/
+  .teacher {
+    padding-top: 6.25em;
+    padding-bottom: 6.25em;
+  }
+
   .teacher-img {
     margin-left: 0;
   }
@@ -205,7 +219,8 @@
   /* PROJECT */
   /**************************/
   .project {
-    padding: 6.25em 0em 12.5em 1.875em;
+    padding-top: 7.25em;
+    padding-right: 0;
   }
   
   .project-image {
@@ -247,38 +262,38 @@
   }
 
   @media (min-width: 1200px) {
-    /**************************/
-    /* GENERAL */
-    /**************************/
-      section {
-        padding: 6.25em 5em;
-      }
+  /**************************/
+  /* GENERAL */
+  /**************************/
+  section {
+    padding: 7.5em 5em;
+  }
 
-      h1 {
-        font-size: 3.75rem;
-        font-weight: 700;
-        margin-bottom: 1rem;
-      }
+  h1 {
+    font-size: 3.75rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
       
-      .row {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-      }
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
       
-      .left-heading1,
-      .left-paragraph {
-        text-align: left;
-      }
+  .left-heading1,
+  .left-paragraph {
+    text-align: left;
+  }
 
-      .section_button {
-        display: inline-block;
-        margin-right: 1em;
-      }
+  .section_button {
+    display: inline-block;
+    margin-right: 1em;
+  }
 
-      .col + .col {
-        margin-left: 3em;
-    }
+  .col + .col {
+    margin-left: 3em;
+  }
 
     
     /**************************/
@@ -292,14 +307,18 @@
     /* HOME */
     /**************************/
     .home {
-        padding: 6.25em 5em 6.5em 5em;
+      padding: 7.5em 5em 7.5em 5em;
+    }
+
+    .yourcourse:after {
+      background-image: url(/Img/Yourcourse-span-desktop.svg);
     }
 
     /**************************/
     /* GOAL */
     /**************************/
     .goal {
-      padding: 6.25em 5em 6.25em 5em;
+      padding: 7.5em 5em 7.5em 5em;
     }
 
     .goal-text {
@@ -325,7 +344,7 @@
     }
 
     .project {
-      padding: 6.25em 5em 12.5em 5em;
+      padding: 7.5em 5em 12.5em 5em;
     }
 
     /**************************/
