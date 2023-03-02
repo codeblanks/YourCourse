@@ -172,24 +172,14 @@ footer {
   font-size: 1.25rem;
 }
 
-.number,
 .email {
   font-size: 1.25rem;
 }
 
-.footer-phone,
 .footer-email {
   margin: 0;
   margin-right: 0.5em;
   display: inline-block;
-}
-
-.phone-details {
-  margin-bottom: 1em;
-}
-
-.phone {
-  margin-bottom: 1em;
 }
 
 /**************************/
