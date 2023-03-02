@@ -161,7 +161,6 @@
     /**************************/
     .home {
       padding-top: 6.25em;
-      padding-right: 0;
     }
 
     .section_button {
@@ -181,10 +180,6 @@
     /**************************/
     .goal-img {
       transform: scaleX(1);
-    }
-
-    .goal {
-      padding-left: 0;
     }
 
     .goal-text {
@@ -228,7 +223,6 @@
     /**************************/
     .project {
       padding-top: 7.25em;
-      padding-right: 0;
     }
     
     .project-image {
@@ -314,10 +308,6 @@
     /**************************/
     /* HOME */
     /**************************/
-    .home {
-      padding-right: 5em;
-    }
-
     .yourcourse:after {
       background-image: url(/Img/Yourcourse-span-desktop.svg);
     }
@@ -325,10 +315,6 @@
     /**************************/
     /* GOAL */
     /**************************/
-    .goal {
-      padding-left: 5em;
-    }
-
     .goal-text {
       width: 45%;
     }
@@ -353,7 +339,6 @@
 
     .project {
       padding-top: 10.5em;
-      padding-right: 5em;
     }
 
     /**************************/
