@@ -27,11 +27,14 @@ ul {
 /**************************/
 /* TEXT */
 /**************************/
-h1, h2, h3, p, p1 {
+h1, h2, h3, p {
     margin: 0;
+}
+
+h1, h2, h3 {
     color: #fff;
-  }
-  
+}
+
 h1 {
   font-size: 2.5rem;
   font-weight: 700;
@@ -72,6 +75,7 @@ p {
   font-weight: 400;
   margin-bottom: 2em;
   line-height: 2.25rem;
+  color: #E4E4E4;
 }
     
 .center {
